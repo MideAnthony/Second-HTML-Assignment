@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Welcome to my webpage</H1>
+    <p><a href="about.html"> Take me to about us page </a></p>
+    <p><a href="blog.html"> Take me to blog page </a></p>
+    <p><a href="contact.html"> Take me to contact page </a></p><br>
+    <table border="1">
+        <tr>
+            <th> S/N</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Country</th>
+        </tr>
+    </table> <br>
+    <form action="#" method="POST">
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br>
+        
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="not_say" name="gender" value="not_say">
+        <label for="not_say">Rather not say</label><br><br>
+        
+        <label for="favorite_foods">Favorite Foods:</label><br>
+        <select id="favorite_foods" name="favorite_foods" multiple>
+            <option value="beans">Beans</option>
+            <option value="rice">Rice</option>
+            <option value="spaghetti">Spaghetti</option>
+            <option value="soup">Soup</option>
+            <option value="pizza">Pizza</option>
+        </select><br> <br>
+        <Label for="Certificate,">Certificate -- select one</Label><br>
+        <Select id="Certificate" name="Certificate" multiple>
+            <option value="FSLC">FSLC</option>
+            <option value="Level">Level</option>
+            <option value="BSc">BSc</option>
+        </Select><br><br>
+        <Label for="Phone Number"> Phone Number</Label> <br>
+        <Input type="Phone Number" id="Phone Number" name="Phone Number"></Input> <br><br>
+        
+    <Label for="about yourself"> Tell us about yourself</Label><br>
+    <textarea name="about yourself" id="about yourself" cols="30" rows="10"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
